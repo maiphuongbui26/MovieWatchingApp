@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "823938417316",
+    "project_id": "moviesstreamingapp-a848f",
+    "storage_bucket": "moviesstreamingapp-a848f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:823938417316:android:a912f4e45bb26225541c31",
+        "android_client_info": {
+          "package_name": "com.app.moviesstreamingapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJOnK7nSP_X-PmXcLynBkKGtWzNOnn_Ko"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

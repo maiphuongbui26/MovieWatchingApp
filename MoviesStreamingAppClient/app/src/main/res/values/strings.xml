@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MoviesStreamingAppClient</string>
+    <string name="exo_prev_desc">Previous</string>
+    <string name="exo_rew_desc">Rewind</string>
+    <string name="exo_repeat_toggle_desc">Repeat</string>
+    <string name="exo_play_desc">Play</string>
+    <string name="exo_pause_desc">Pause</string>
+    <string name="exo_ffwd_desc">Fast Forward</string>
+    <string name="exo_next_desc">Next</string>
+    <string name="close">Close</string>
+    <string name="maximize">Maximize</string>
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UploadThumbnailActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:orientation="vertical">
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="Choose Movies Type"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/colorAccent"/>
+        <RadioGroup
+            android:id="@+id/radiogroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/radioNotype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No Type"
+                android:checked="true"
+                >
+            </RadioButton>
+            <RadioButton
+                android:id="@+id/radiolatesMovies"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="latest Movies">
+            </RadioButton>
+            <RadioButton
+                android:id="@+id/radiobestpopularMovies"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="best popular Movies">
+            </RadioButton>
+            <RadioButton
+                android:id="@+id/radioSliderMovies"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Slider movies">
+            </RadioButton>
+        </RadioGroup>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:layout_marginTop="10dp">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="showimagechooser"
+                android:text="upload thumbnail">
+
+            </Button>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="no thumbnail selected"
+                android:layout_marginStart="10dp"
+                android:gravity="center"
+                android:id="@+id/textNothumbnailselected">
+            </TextView>
+
+        </LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UPDATE"
+            android:layout_marginTop="10dp"
+            android:id="@+id/buttonupload"
+            android:textStyle="bold"
+            android:onClick="uploadfiletofirebase">
+        </Button>
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/imageview">
+        </ImageView>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
